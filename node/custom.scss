@@ -5,14 +5,13 @@ $theme-colors: (
  "danger": $second
 );*/
 
-   $dropdown-link-active-bg: red;
-   $dropdown-link-active-color: white;
+$light: #d9dad7; 
 
-   $dropdown-link-hover-bg: #93C572;
-   $dropdown-link-hover-color: black;
+$warning: #c24d2c; 
 
-   $dropdown-link-color: red;
 
-   $btn-font-family: ink free;
+$secondary: #3e4a61; 
 
-@import "./node_modules/bootstrap/scss/bootstrap";
+$dark: #1a2639;
+
+@import "./node_modules/bootstrap/scss/bootstrap"
