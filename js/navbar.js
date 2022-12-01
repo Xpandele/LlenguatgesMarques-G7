@@ -25,8 +25,3 @@ header.innerHTML =`
         </div>
       </nav>
       `;
-
-/*var titol = document.getElementById("titol");
-header.innerHTML = `
-<h1>MUNDIAL QATAR 2022</h1>
-`;*/
