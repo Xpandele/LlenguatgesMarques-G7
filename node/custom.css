@@ -11,6 +11,12 @@ $theme-colors: (
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@font-face {
+  font-family: qatar;
+  src: url(./Qatar2022Arabic-Bold.ttf);
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10940,4 +10946,29 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=custom.css.map */
+}
+
+#titol {
+  text-align: center;
+  color: #eefcff;
+  background-color: #8a1538;
+  font-family: qatar;
+}
+
+#navbar {
+  font-family: qatar;
+}
+
+.col {
+  height: 33em;
+  text-align: center;
+  padding-top: 15em;
+  font-family: qatar;
+}
+
+#footer {
+  padding-top: 2em;
+  font-family: qatar;
+}
+
+/*# sourceMappingURL=custom.css.map */
