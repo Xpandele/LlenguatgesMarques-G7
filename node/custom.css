@@ -10947,6 +10947,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+img {
+  height: 10em;
+}
 
 #titol {
   text-align: center;
@@ -10962,7 +10965,6 @@ textarea.form-control-lg {
 .col {
   height: 33em;
   text-align: center;
-  padding-top: 15em;
   font-family: qatar;
 }
 
