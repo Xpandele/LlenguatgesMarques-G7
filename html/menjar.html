@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/stylesMenjar.css">
-    <title>INICIO - CONTINENTAL</title>
+    <title>MealDB API Example</title>
+    <link rel="stylesheet" href="./../css/css.css">
 </head>
+
 <body>
-    <h1>BIENVENIDO A CONTINENTAL, TU RESTAURANTE DE CONFIANZA</h1>
-    <nav>
-        <ul>
-            <li>MENÚ</li>
-            <li>CONTACTO</li>
-            <li>CREADO POR:</li>
-        </ul>
-    </nav>
-    <img src="../CONTINENTAL.png">
+    <h1>Información de comidas</h1>
+
+    <label for="category-select">Selecciona una categoría:</label>
+    <select id="category-select">
+        <option value="">Selecciona una comida</option>
+    </select>
+
+    <div class="meal-container" id="meal-list"></div>
+
+    <script src="./../js/script.js"></script>
 </body>
+
 </html>
