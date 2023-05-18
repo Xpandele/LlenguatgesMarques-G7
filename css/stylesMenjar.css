@@ -2,9 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 header {
@@ -13,13 +10,11 @@ header {
     padding: 20px;
     align-items: center;
     text-align: center;
-    width: 100%;
 }
 
 nav {
     background-color: #eee;
     padding: 10px;
-    width: 100%;
 }
 
 nav ul {
@@ -51,12 +46,11 @@ div {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    margin: 20px;
     background-color: #f5f5f5;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    max-width: 600px;
 }
 
 div p {
@@ -64,11 +58,10 @@ div p {
     color: #555;
 }
 
+
 img {
     display: block;
-    margin-top: 30px;
-    margin-right: 20px;
-    max-width: 90%;
+    margin: 30px auto 0;
     height: auto;
     transition: transform 0.2s ease-in-out;
 }
