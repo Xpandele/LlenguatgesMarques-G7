@@ -41,60 +41,82 @@ nav li a:hover {
   color: #fff;
 }
 
-/* Estilos para las imágenes de las comidas */
 .meal-card img {
   width: 150px;
-  /* Tamaño personalizado para las imágenes */
   height: auto;
-  /* Altura automática para mantener la proporción */
   border-radius: 8px;
-  /* Borde redondeado */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Sombra suave */
 }
 
-/* Estilos para el texto de las comidas */
 .meal-card h2 {
   font-size: 18px;
-  /* Tamaño de fuente personalizado */
   margin-bottom: 5px;
-  /* Espacio inferior */
 }
 
-/* Estilos para las imágenes de las comidas guardadas */
 .saved-meal img {
   width: 100px;
-  /* Tamaño personalizado para las imágenes guardadas */
   height: auto;
-  /* Altura automática para mantener la proporción */
   border-radius: 8px;
-  /* Borde redondeado */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Sombra suave */
 }
-
-/* Estilos para el texto de las comidas guardadas */
 .saved-meal h2 {
   font-size: 16px;
-  /* Tamaño de fuente personalizado */
   margin-bottom: 5px;
-  /* Espacio inferior */
 }
 
-/* Estilos para el contenedor de las comidas */
 #meal-list {
   display: flex;
-  /* Mostrar las comidas en una fila */
   flex-wrap: wrap;
-  /* Envolver las comidas en filas adicionales */
   justify-content: flex-start;
-  /* Alinear las comidas a la izquierda */
 }
 
-/* Estilos para cada comida */
 .meal-card {
   flex: 0 0 calc(25% - 20px);
-  /* Hacer que cada comida ocupe el 25% del ancho del contenedor con un espacio de 20px entre ellas */
   margin: 10px;
-  /* Espacio exterior entre las comidas */
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-color: #d7a362;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #b9833d;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #b9833d;
+}
+
+.custom-select {
+  display: block;
+  width: 200px;
+  padding: 8px;
+  background-color: #d7a362;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.custom-select option {
+  background-color: #d7a362;
+  color: white;
+}
+
+img:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }

@@ -1,0 +1,14 @@
+footer {
+    background-color: #d7a362;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  footer img {
+    max-width: 80px;
+    height: auto;
+    padding: 10px;
+  }
+  

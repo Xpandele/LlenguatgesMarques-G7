@@ -66,3 +66,26 @@ nav li a:hover {
   object-fit: contain;
   border-radius: 5px;
 }
+
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-color: #d7a362;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #b9833d;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #b9833d;
+}
