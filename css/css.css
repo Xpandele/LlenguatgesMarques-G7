@@ -1,40 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d7a362;
+  color: #fff;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  background-color: #513b1b;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #b69d3a;
+  color: #fff;
+}
+
 /* Estilos para las imágenes de las comidas */
 .meal-card img {
-  width: 150px; /* Tamaño personalizado para las imágenes */
-  height: auto; /* Altura automática para mantener la proporción */
-  border-radius: 8px; /* Borde redondeado */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 150px;
+  /* Tamaño personalizado para las imágenes */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+  border-radius: 8px;
+  /* Borde redondeado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
 }
 
 /* Estilos para el texto de las comidas */
 .meal-card h2 {
-  font-size: 18px; /* Tamaño de fuente personalizado */
-  margin-bottom: 5px; /* Espacio inferior */
+  font-size: 18px;
+  /* Tamaño de fuente personalizado */
+  margin-bottom: 5px;
+  /* Espacio inferior */
 }
 
 /* Estilos para las imágenes de las comidas guardadas */
 .saved-meal img {
-  width: 100px; /* Tamaño personalizado para las imágenes guardadas */
-  height: auto; /* Altura automática para mantener la proporción */
-  border-radius: 8px; /* Borde redondeado */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 100px;
+  /* Tamaño personalizado para las imágenes guardadas */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+  border-radius: 8px;
+  /* Borde redondeado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
 }
 
 /* Estilos para el texto de las comidas guardadas */
 .saved-meal h2 {
-  font-size: 16px; /* Tamaño de fuente personalizado */
-  margin-bottom: 5px; /* Espacio inferior */
+  font-size: 16px;
+  /* Tamaño de fuente personalizado */
+  margin-bottom: 5px;
+  /* Espacio inferior */
 }
 
 /* Estilos para el contenedor de las comidas */
 #meal-list {
-  display: flex; /* Mostrar las comidas en una fila */
-  flex-wrap: wrap; /* Envolver las comidas en filas adicionales */
-  justify-content: flex-start; /* Alinear las comidas a la izquierda */
+  display: flex;
+  /* Mostrar las comidas en una fila */
+  flex-wrap: wrap;
+  /* Envolver las comidas en filas adicionales */
+  justify-content: flex-start;
+  /* Alinear las comidas a la izquierda */
 }
 
 /* Estilos para cada comida */
 .meal-card {
-  flex: 0 0 calc(25% - 20px); /* Hacer que cada comida ocupe el 25% del ancho del contenedor con un espacio de 20px entre ellas */
-  margin: 10px; /* Espacio exterior entre las comidas */
+  flex: 0 0 calc(25% - 20px);
+  /* Hacer que cada comida ocupe el 25% del ancho del contenedor con un espacio de 20px entre ellas */
+  margin: 10px;
+  /* Espacio exterior entre las comidas */
 }
