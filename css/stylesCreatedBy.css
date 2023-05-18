@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+    background-color: #3f3d56;
+	color: #f8f8f8;
+}
+
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0;
+	text-shadow: 0 0 5px #f8f8f8;
+	animation: changeColor 3s infinite;
+}
+
+p {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+@keyframes changeColor {
+	0% {
+		color: #f8f8f8;
+	}
+	50% {
+		color: #4CAF50;
+	}
+	100% {
+		color: #f8f8f8;
+	}
+}
