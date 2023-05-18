@@ -1,0 +1,26 @@
+/* Estilos para la lista de comidas */
+#meal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Estilos para las tarjetas de comida */
+  .meal-card {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Estilos para las imágenes de comida */
+  .meal-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
