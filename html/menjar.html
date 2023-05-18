@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>MealDB API Example</title>
-    <link rel="stylesheet" href="./../css/css.css">
+  <title>Meals</title>
+  <link rel="stylesheet" href="./../css/css.css">
 </head>
-
 <body>
-    <h1>Información de comidas</h1>
+  <h1>Select a category:</h1>
+  <select id="category-select">
+    <option value="">Select a category</option>
+  </select>
 
-    <label for="category-select">Selecciona una categoría:</label>
-    <select id="category-select">
-        <option value="">Selecciona una comida</option>
-    </select>
+  <h2>Meals:</h2>
+  <div id="meal-list"></div>
 
-    <div class="meal-container" id="meal-list"></div>
+  <h2>Your menu:</h2>
+  <div id="saved-meals-list"></div>
 
-    <script src="./../js/script.js"></script>
+  <button id="show-saved-meals-button">Show saved meals</button>
+
+  <script src="./../js/script.js"></script>
 </body>
-
 </html>
