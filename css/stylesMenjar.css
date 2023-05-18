@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    background-color: #eee;
+    background-color: #513b1b;
     padding: 10px;
 }
 
@@ -32,7 +32,7 @@ nav li {
 nav li a {
     display: block;
     padding: 10px;
-    color: #333;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -57,7 +57,6 @@ div p {
     margin-bottom: 15px;
     color: #555;
 }
-
 
 img {
     display: block;

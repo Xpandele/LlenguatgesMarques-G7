@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesContacte.css">
     <title>CONTACT</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>CONTACT FORM</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../html/menjar.html">MENÚ</a></li>
+            <li><a href="../html/random.html">RANDOM</a></li>
+        </ul>
+    </nav>
+
+    <form action="mailto:correo@ejemplo.com" method="POST" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telephone">Telephone:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="text">Text:</label>
+        <textarea id="text" name="text" required></textarea>
+
+        <input type="submit" value="Send">
+    </form>
 </body>
+
 </html>
